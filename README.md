@@ -1,6 +1,6 @@
 # AmesTask API Backend
 This project was made using Python 3.13.5 and MySQL MariaDB 11.4.5.
-It includes a database and backend API for an Angular project (Angular repo: ames_angular_ui).
+It includes a database and backend API for an Angular project (Angular repo: amestask-fe-envious-jelly).
 
 ## Local Database
 Create a new schema:
