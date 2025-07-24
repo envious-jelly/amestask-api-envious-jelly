@@ -1,5 +1,5 @@
 # AmesTask API Backend
-This project was made using Python 3.13.5 and MySQL MariaDB 11.4.5.
+This project was made using Python `3.13.5` and MySQL MariaDB `11.4.5`.
 It includes a database and backend API for an Angular project (Angular repo: amestask-fe-envious-jelly).
 
 ## Local Database
@@ -15,6 +15,11 @@ Once you have the schema ready, you'll have to change the value of `URL_DATABASE
 URL_DATABASE = 'mysql+pymysql://USER:PASSWORD@localhost:3306/name'
 ```
 Replace the values `USER`, `PASSWORD`, and `name` so that the application can access the schema `name`.
+
+## Imports
+```bash
+pip install sqlalchemy fastapi uvicorn pymysql
+```
 
 ## Running the Application
 Run the following command in a terminal:
