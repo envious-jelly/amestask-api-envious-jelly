@@ -14,7 +14,7 @@ Once you have the schema ready, you'll have to change the value of `URL_DATABASE
 ```python
 URL_DATABASE = 'mysql+pymysql://USER:PASSWORD@localhost:3306/name'
 ```
-Replace the values `USER` and `PASSWORD` so that the application can access the schema `name`.
+Replace the values `USER`, `PASSWORD`, and `name` so that the application can access the schema `name`.
 
 ## Running the Application
 Run the following command in a terminal:
