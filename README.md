@@ -10,6 +10,12 @@ USE name;
 ```
 Run the `database/baza.sql` file to create the necessary tables. It will also create some data for testing.
 
+Once you have the schema ready, you'll have to change the value of `URL_DATABASE` in `database.py`:
+```python
+URL_DATABASE = 'mysql+pymysql://USER:PASSWORD@localhost:3306/name'
+```
+Replace the values `USER` and `PASSWORD` so that the application can access the schema `name`.
+
 ## Running the Application
 Run the following command in a terminal:
 ```bash
