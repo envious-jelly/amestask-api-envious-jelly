@@ -1,4 +1,4 @@
-# AmesAPI
+# AmesTask API Backend
 This project was made using Python 3.13.5 and MySQL MariaDB 11.4.5.
 It includes a database and backend API for an Angular project (Angular repo: ames_angular_ui).
 
@@ -15,4 +15,4 @@ Run the following command in a terminal:
 ```bash
 uvicorn main:app --reload
 ```
-and navigate to `http://127.0.0.1:8000/docs`.
+and navigate to `http://127.0.0.1:8000/docs` in your browser.
